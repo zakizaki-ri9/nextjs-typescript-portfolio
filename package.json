@@ -1,0 +1,21 @@
+{
+  "name": "nextjs-typescript-portfolio",
+  "version": "1.0.0",
+  "description": "nextjs x typescriptによるポートフォリオ",
+  "main": "index.js",
+  "author": "zakizaki-ri9",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "@types/next": "^8.0.6",
+    "@types/react": "^16.9.5",
+    "@types/react-dom": "^16.9.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}
