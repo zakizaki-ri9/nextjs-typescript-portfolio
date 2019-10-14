@@ -1,8 +1,12 @@
-import React from 'react'
-import '../styles/main.css'
+import Header from '../components/navbar/header'
 
 const DefaultLayout: React.FC = props => {
-  return <div className="container mx-auto">{props.children}</div>
+  return (
+    <div>
+      <Header></Header>
+      <div className="container mx-auto">{props.children}</div>
+    </div>
+  )
 }
 
 export default DefaultLayout
