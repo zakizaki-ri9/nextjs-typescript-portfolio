@@ -19,7 +19,8 @@
     "postcss-loader": "^3.0.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "tailwindcss": "^1.1.2"
+    "tailwindcss": "^1.1.2",
+    "tailwindcss-transitions": "^2.1.0"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.9",
