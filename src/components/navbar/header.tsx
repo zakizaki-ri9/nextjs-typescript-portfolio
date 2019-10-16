@@ -2,9 +2,12 @@ import React from 'react'
 import Link from 'next/link'
 import '../../styles/main.css'
 
-const HeaderLink: React.FC = props => (
+type Props = {
+  href: string
+}
+const HeaderLink: React.FC<Props> = props => (
   <a
-    href="#"
+    href={props.href}
     className="block inline-block mt-0 text-gray-900 hover:text-gray-500 mr-4 transition-all transition-300 transition-ease"
   >
     {props.children}
@@ -18,8 +21,8 @@ const Navbar: React.FC = props => {
         zaki's portfolio
       </span>
       <div className="flex">
-        <HeaderLink>Podcast</HeaderLink>
-        <HeaderLink>Blog</HeaderLink>
+        <HeaderLink href="/podcast">Podcast</HeaderLink>
+        <HeaderLink href="/blog/index">Blog</HeaderLink>
       </div>
     </nav>
   )
